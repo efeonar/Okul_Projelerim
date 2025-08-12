@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazillispor A.Ş.</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @media screen and (max-width: 1000px) {
+            #main {
+                width: 100%;
+                height: auto;
+                background-color: white;
+                margin-top: 120px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .card {
+                margin: 20px ;
+            }
+        }
+
+        #main {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+        
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <header>
+
+        <div id="header">
+            <div id="logo">
+                <a href="Anasayfa.html"><img src="Nazillispor_(2024).png"> </a>
+            </div>
+
+            <div id="nav">
+                <ul>
+                    <li><a href="Anasayfa.html">Anasayfa</a></li>
+                    <li><a href="Lig.html">Lig</a></li>
+                    <li><a href="https://nazillispor.store/" target="_blank">Mağaza</a></li>
+                    <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+
+                </ul>
+            </div>
+            <div id="social">
+                <a href="https://www.instagram.com/nazillisporas/" target="_blank"><img src="insta2.png" ></a>
+                <a href="https://www.facebook.com/Nazillispor/?locale=tr_TR" target="_blank"><img src="png-clipart-logo-social-media-facebook-brand-social-media-text-logo.png"></a>
+            
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main >
+        <div id="main" >
+            <div class="card">
+                <a href="haberler.html">
+                    <img class="card-img-top" src="Haberler_görsel.jpg" >
+                </a>
+                <div class="card-body">
+                    
+                  <p class="card-text">Nazillispor ile ilgili en güncel haberleri görmek için tıklayın.</p>
+                    <a href="haberler.html" class="incele">İncele</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="Transferler.html">
+                    <img class="card-img-top" src="TRANSFERLER_görsel.jpg">
+                </a>
+                <div class="card-body">
+                    
+                    <p class="card-text">Son transfer haberlerini buradan takip edebilirsiniz.</p>
+                    <a href="Transferler.html" class="incele">İncele</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="İletişim.html">
+                    <img class="card-img-top" src="iletişim foto.jpg">
+                </a>
+                <div class="card-body">
+                    
+                    <p class="card-text">Nazillispor ile iletişim kurmak için tıklayın.</p>
+                    <a href="İletişim.html" class="incele">İncele</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="Görseller.html">
+                    <img class="card-img-top" src="WhatsApp Görsel 2024-12-08 saat 19.18.00_00a7f2be.jpg" >
+                </a>
+                <div class="card-body">
+                    
+                    <p class="card-text">Nazillispor ile ilgili görselleri incelemek için tıklayın.</p>
+                    <a href="Görseller.html" class="incele">İncele</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div id="footer-left">
+                <form>
+                    <h2>Gündemden anında haberdar olmak istiyorsanız forumu doldurun</h2>
+                    <p>
+                        <label for="isim">Kullanıcı Adı:</label>
+                        <input type="text" id="isim" name="isim">
+                    </p>
+                    <p>
+                        <label for="eposta">E-posta:</label>
+                        <input type="email" id="eposta" name="eposta">
+                    </p>
+                    <p>
+                        <label for="sifre">Şifre:</label>
+                        <input type="password" id="sifre" name="sifre">
+                    </p>
+                    <p>
+                        <label>Cinsiyet:</label>
+                        <label for="erkek">Erkek</label>
+                        <input type="radio" id="erkek" name="cinsiyet" value="erkek">
+                        <label for="kadin">Kadın</label>
+                        <input type="radio" id="kadin" name="cinsiyet" value="kadin">
+                    </p>
+                    <p>
+                        <input type="submit" value="Gönder">
+                    </p>
+                </form>
+            </div>
+
+            <div id="footer-right">
+                <a href="Anasayfa.html"><img src="Nazillispor_(2024).png" alt="Nazillispor Logo"></a>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
